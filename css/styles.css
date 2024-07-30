@@ -1,3 +1,62 @@
-p {
-    font-size: 1.2em; 
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#title {
+    font-weight: 500;
+    color: orange
+}
+
+.text {
+    font-size: 3em;
+    color: blueviolet;
+}
+
+.alert {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.success {
+    color: green;
+}
+
+.warning {
+    color: orange
+}
+
+.error {
+    color: red;
+}
+
+.social-links a {
+    color: blue;
+    text-decoration: none;
+}
+
+.menu>li {
+    border: 1px solid tomato;
+}
+
+a[title] {
+    color: teal
+}
+
+a[href="https://htmlreference.io"] 
+
+    {
+    color: teal;
+}
+
+a[href="https://cssreference.io"] 
+
+    {
+    color: orange;
+}
+
+a[href="https://www.youtube.com"] 
+
+    {
+    color: tomato;
 }
