@@ -43,6 +43,10 @@ body {
     color: red;
 }
 
+.social-links {
+    list-style-type: none;
+}
+
 .menu>li {
     border: 1px solid tomato;
 }
@@ -71,6 +75,11 @@ a[href="https://www.youtube.com"] {
     color: tomato;
 }
 
+.schedule {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .schedule-body > tr:hover {
     background-color: tomato;
     color: white;
@@ -89,3 +98,9 @@ a[href="https://www.youtube.com"] {
 body {
     font-family: sans-serif;
 }
+
+.menu,
+.submenu {
+    list-style-type: none;
+}
+
