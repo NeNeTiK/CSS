@@ -30,9 +30,17 @@ body {
     color: red;
 }
 
-.social-links a {
-    color: blue;
-    text-decoration: none;
+.social-links .link {
+    color: teal;
+}
+
+.social-links .link:focus,
+.social-links .link:hover {
+    color: orange
+}
+
+.social-links .link:active {
+    color: red;
 }
 
 .menu>li {
@@ -43,20 +51,41 @@ a[title] {
     color: teal
 }
 
-a[href="https://htmlreference.io"] 
-
-    {
+a[href="https://htmlreference.io"] {
     color: teal;
 }
 
-a[href="https://cssreference.io"] 
-
-    {
+a[href="https://cssreference.io"] {
     color: orange;
 }
 
-a[href="https://www.youtube.com"] 
-
-    {
+a[href="https://www.youtube.com"] {
     color: tomato;
+}
+
+.link {
+    color: teal;
+}
+
+.link:hover {
+    color: tomato;
+}
+
+.schedule-body > tr:hover {
+    background-color: tomato;
+    color: white;
+}
+
+.schedule {
+    border-collapse: collapse;
+}
+
+.schedule th,
+.schedule td {
+    padding: 8px;
+    border: 1px solid #212121;
+}
+
+body {
+    font-family: sans-serif;
 }
